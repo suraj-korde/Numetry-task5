@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Times New Roman", Times, serif;
+}
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;       
+}
+.fa-phone{
+    color: #fff;
+}
+.container1 {
+display: flex;
+padding: 0px;
+margin: 0px;
+background-color: #0f1882;
+}
+.industrial {
+    padding-left: 73px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.normal-word {
+    font-size: 0.5em;
+    font-weight: normal;
+}
+.call {
+    display: inline;
+}
+.normal-call{
+    color: rgb(34, 168, 216);
+}
+.heading1 {
+    color: aliceblue;
+    margin-inline-end: 200px;
+}
+.heading2 {
+    color: aliceblue;
+    margin-inline-start: 300px;
+}
+.container2 {
+    display:flex;
+    height: 600px;
+    width: 100%;
+    background-image: url("indu.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.text{
+    color: antiquewhite;
+    margin-top: 250px;
+    padding-left: 80px;
+}
+.text1 {
+    font-size: 2em;
+    color: rgb(249, 252, 255);
+}
+.enquiry{
+
+}
+.form-container {
+    margin-top: 90px;
+    margin-left: 1000px;
+    background-color: #0d56d3; /* Blue background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group input {
+    width: 48%;
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+input, textarea {
+    background-color: white;
+}
+
+textarea {
+    resize: none;
+    height: 70px;
+}
+.contactus{
+    color: antiquewhite;
+    padding-bottom: 10px;
+}
+button {
+    background-color: rgb(52, 230, 253); /* Bright blue submit button */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005ce6; /* Darker blue on hover */
+}
+.container3 {
+    padding: auto;
+    margin: 0;
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.section {
+    text-align: center;
+    width: 35%;
+}
+
+.section img {
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    color: #003366; /* Dark blue color */
+    margin: 5px 5px;
+}
+
+.section p {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #0a2a63;
+}
+
+.container4 {
+    background-color: #002c73;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Full height of the viewport */
+}
+
+.about-us {
+    color: #f3f5ed;
+    text-align: center;
+    color: whitesmoke; /* Text color */
+    padding: 20px;
+}
+
+.about-us h1 {
+    margin: 0 0 20px;
+    font-size: 24px;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.learn-more {
+    background-color: whitesmoke;
+    border: 2px solid white; /* White border */
+    color: black; /* White text */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.learn-more:hover {
+    background-color: white; /* White background on hover */
+    color: rgb(12, 202, 101); /* Text color on hover */
+}
+.container5 {
+    width: 80%;
+    margin: 0 auto;
+}
+.last{
+    color: #090b00;
+}
+.top-row,
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-box img {
+    margin-top: 1px;
+    width: 200%;
+    height: auto;
+    max-width: 850px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.text-box {
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.text-box h2 {
+    font-size: 48px;
+    margin-top: 0;
+}
+
+.text-box p {
+    margin: 50px;
+}
+.footer{
+    background-color: #0f1882;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    /* This ensures the footer sticks to the bottom */
+    flex-shrink: 0;
+}
